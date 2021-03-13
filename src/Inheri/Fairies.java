@@ -1,4 +1,4 @@
 package Inheri;
 
-public class Fairies {
+public class Fairies extends inhabitants{
 }
