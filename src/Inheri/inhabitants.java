@@ -2,10 +2,14 @@ package Inheri;
 
 public class inhabitants {
 
-    String name;
+    final String name;
     boolean alive;
 
     int strength,agility,armour,healthRating;
+
+    public inhabitants(String name) {
+        this.name = name;
+    }
 
     public String getName() {
         return name;
@@ -91,6 +95,10 @@ public class inhabitants {
         }
     }
 
-
+    public int attack(){
+        int damage;
+        damage = ((getStrength() + getAgility() + getHealthRating())/3);
+        return damage;
+    }
 
 }

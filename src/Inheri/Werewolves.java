@@ -5,7 +5,12 @@ public class Werewolves extends inhabitants{
     Fairies fairyOne;
     Fairies fairyTwo;
 
-    String pack;
+    final String pack;
+
+    public Werewolves(String pack,String name) {
+        super(name);
+        this.pack = pack;
+    }
 
     public String getPack() {
         return pack;

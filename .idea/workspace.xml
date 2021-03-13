@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1e7cb5e1-003a-4a5f-ace8-d84f31d37f70" name="Default Changelist" comment="making the inhabitants of the world">
-      <change afterPath="$PROJECT_DIR$/src/Inheri/healer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Inheri/hunter.java" afterDir="false" />
+    <list default="true" id="1e7cb5e1-003a-4a5f-ace8-d84f31d37f70" name="Default Changelist" comment="Finished making more of the classes and extensions">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Inheri/Fairies.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Inheri/Fairies.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Inheri/Humans.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Inheri/Humans.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Inheri/Werewolves.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Inheri/Werewolves.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Inheri/healer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Inheri/healer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Inheri/hunter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Inheri/hunter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Inheri/inhabitants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Inheri/inhabitants.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,7 +58,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615660216928</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Finished making more of the classes and extensions">
+      <created>1615669709208</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1615669709208</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -74,6 +81,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="making the inhabitants of the world" />
-    <option name="LAST_COMMIT_MESSAGE" value="making the inhabitants of the world" />
+    <MESSAGE value="Finished making more of the classes and extensions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished making more of the classes and extensions" />
   </component>
 </project>
