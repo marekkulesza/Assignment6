@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1e7cb5e1-003a-4a5f-ace8-d84f31d37f70" name="Default Changelist" comment="more of the begining part finisehd the attack() here">
+    <list default="true" id="1e7cb5e1-003a-4a5f-ace8-d84f31d37f70" name="Default Changelist" comment="lots of the attack and defend has been changed">
+      <change afterPath="$PROJECT_DIR$/src/Inheri/World.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Inheri/Fairies.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Inheri/Fairies.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Inheri/Humans.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Inheri/Humans.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Inheri/Healer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Inheri/Healer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Inheri/Humans.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Inheri/Human.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Inheri/Hunter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Inheri/Hunter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Inheri/Inhabitant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Inheri/Inhabitant.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Inheri/Werewolves.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Inheri/Werewolves.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Inheri/healer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Inheri/Healer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Inheri/hunter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Inheri/Hunter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Inheri/inhabitants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Inheri/Inhabitant.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +34,39 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+  </component>
+  <component name="RunManager" selected="Application.OverrideTests">
+    <configuration name="OverrideTests" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week8code.OverrideTests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="week8code.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="World" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Inheri.World" />
+      <module name="Assignment6" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Inheri.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.World" />
+        <item itemvalue="Application.OverrideTests" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -72,7 +105,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615675660575</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="lots of the attack and defend has been changed">
+      <created>1615689376488</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1615689376488</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -90,6 +130,7 @@
     <MESSAGE value="making the inhabitants of the world" />
     <MESSAGE value="Finished making more of the classes and extensions" />
     <MESSAGE value="more of the begining part finisehd the attack() here" />
-    <option name="LAST_COMMIT_MESSAGE" value="more of the begining part finisehd the attack() here" />
+    <MESSAGE value="lots of the attack and defend has been changed" />
+    <option name="LAST_COMMIT_MESSAGE" value="lots of the attack and defend has been changed" />
   </component>
 </project>

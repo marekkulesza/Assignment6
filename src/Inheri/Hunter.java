@@ -1,19 +1,29 @@
 package Inheri;
 
-public class Hunter extends Humans{
-
+public class Hunter extends Human {
 
     public Hunter(String name) {
         super(name);
     }
 
+    public Hunter(String name, int strength, int agility, int armour, int healthRating) {
+        super(name, strength, agility, armour, healthRating);
+    }
+
     @Override
     public int attack(Inhabitant inhabitant){
-        if (alive) {
-            int damage;
-            damage = ((getStrength() + getAgility() + getHealthRating()) / 3);
-            inhabitant.setHealthRating((inhabitant.getHealthRating() - (damage*2)));
-        }
-        return 0;
+        int damage;
+        damage = ((getStrength() + getAgility() + getHealthRating()) / 3);
+        System.out.println("A special hunter attack is being used");
+         if (damage < 1) {
+             damage = 2;
+         }
+        return damage*2;
+    }
+
+    @Override
+    public String toString() {
+        return "Hunter{" + name +
+                '}';
     }
 }

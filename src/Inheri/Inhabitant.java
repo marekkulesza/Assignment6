@@ -2,13 +2,28 @@ package Inheri;
 
 public class Inhabitant {
 
-    final String name;
-    boolean alive;
+    String name;
 
-    int strength,agility,armour,healthRating;
+    boolean alive = true;
+
+    int strength = 4;
+
+    int agility = 4;
+
+    int armour = 4;
+
+    int healthRating = 4;
 
     public Inhabitant(String name) {
         this.name = name;
+    }
+
+    public Inhabitant(String name, int strength, int agility, int armour, int healthRating) {
+        this.name = name;
+        this.strength = strength;
+        this.agility = agility;
+        this.armour = armour;
+        this.healthRating = healthRating;
     }
 
     public String getName() {
@@ -31,8 +46,9 @@ public class Inhabitant {
         this.agility = agility;
     }
 
-    public void isAlive() {
+    public Boolean isAlive() {
         alive = healthRating >= 1;
+        return alive;
     }
 
     public int getArmour() {
@@ -95,23 +111,48 @@ public class Inhabitant {
     }
 
     public int attack(Inhabitant inhabitant){
-        if (alive) {
-            int damage;
-            damage = ((getStrength() + getAgility() + getHealthRating()) / 3);
-            return damage;
+        int damage;
+        damage = ((getStrength() + getAgility() + getHealthRating()) / 3);
+        if (damage < 1){
+            damage = 1;
         }
-        return 0;
+        return damage;
     }
 
     public void defend(Inhabitant inhabitant){
         if (alive) {
-            int loss;
-            loss = ((attack(inhabitant) / getArmour()));
-            if (loss < 1) {
-                loss = 1;
+            if (inhabitant.isAlive()) {
+                int loss;
+                loss = ((attack(inhabitant) / getArmour()));
+                if (loss < 1) {
+                    loss = 1;
+                }
+                System.out.println(getName() + " dealt " + loss + " damage to " + inhabitant.getName());
+                inhabitant.setHealthRating(inhabitant.getHealthRating() - loss);
+                System.out.println(inhabitant.getName() + " has " + inhabitant.getHealthRating() + " hp");
             }
-            inhabitant.setHealthRating(inhabitant.getHealthRating() - loss);
+            else {
+                System.out.println(inhabitant.getName() + " is dead");
+            }
         }
+        else {
+            System.out.println(getName() + ", you can't do that because you are dead");
+        }
+    }
 
+    @Override
+    public String toString() {
+        return "Inhabitant{" +
+                "name='" + name + '\'' +
+                ", alive=" + alive +
+                ", strength=" + strength +
+                ", agility=" + agility +
+                ", armour=" + armour +
+                ", healthRating=" + healthRating +
+                '}';
+    }
+
+    public void curaga(Inhabitant inhabitant) {
+        System.out.println("You can't cast this");
     }
 }
