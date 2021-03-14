@@ -15,7 +15,7 @@ public class World {
     public static void main(String[] args) {
         Healer Areith = new Healer("Areith");
         Human Hunter = new Hunter("Mama");
-        Healer BetterAreith = new Healer("Better Areith", 4, 4, 6, 7);
+        Healer BetterAreith = new Healer("Better Areith", 4, 4, 6, 7,4);
         Human BetterHunter = new Hunter("Better Mama", 4, 4, 6, 7);
 
         System.out.println(Areith);
@@ -58,8 +58,8 @@ public class World {
 
         System.out.println("Human fight is over");
 
-        Werewolf Edward = new RedMoon("Edward");
-        Werewolf Jacob = new BlueMoon("Jacob");
+        RedMoon Edward = new RedMoon("Edward");
+        BlueMoon Jacob = new BlueMoon("Jacob");
         Fairy Rose = new Fairy("Rose");
         Fairy Ruby = new Fairy("Ruby");
         Fairy Azure = new Fairy("Azure");
@@ -71,8 +71,8 @@ public class World {
         Edward.setFairyOne(Rose);
         Edward.setFairyTwo(Ruby);
 
-        Edward.getFairyOne();
-        Edward.getFairyTwo();
+        System.out.println(Edward.getFairyOne());
+        System.out.println(Edward.getFairyTwo());
 
         Jacob.setFairyOne(Azure);
         Jacob.setFairyTwo(Sapphire);

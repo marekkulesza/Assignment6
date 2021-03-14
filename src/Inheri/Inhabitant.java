@@ -4,7 +4,7 @@ package Inheri;
  * This is assignment 6, all inhabitants of the world
  * all inhabitants have a list of skills that they can use
  * some differ from others so you'll have to check and see
- *
+ * <p>
  * name, strength, agility, armour, and healthRating
  *
  * @author Marek Kulesza
@@ -45,13 +45,23 @@ public class Inhabitant {
     int healthRating = 4;
 
     /**
+     * Constructor used to make the inhabitants of the world
      *
-     * @param name
+     * @param name the name of the inhabitant
      */
     public Inhabitant(String name) {
         this.name = name;
     }
 
+    /**
+     * Constructor used to make the inhabitant and set their inital stats
+     *
+     * @param name         the name of the inhabitant
+     * @param strength     int value for strength
+     * @param agility      int value for agility
+     * @param armour       int value for armour
+     * @param healthRating int value for healthRating
+     */
     public Inhabitant(String name, int strength, int agility, int armour, int healthRating) {
         this.name = name;
         this.strength = strength;
@@ -60,47 +70,92 @@ public class Inhabitant {
         this.healthRating = healthRating;
     }
 
+    /**
+     * getter for the name
+     *
+     * @return string name
+     */
     public String getName() {
         return name;
     }
 
+    /**
+     * getter for the strength
+     *
+     * @return int value of the strength stat
+     */
     public int getStrength() {
         return strength;
     }
 
-    public void setStrength(int strength) {
-        this.strength = strength;
-    }
-
+    /**
+     * getter for the agility
+     *
+     * @return int value of the agility stat
+     */
     public int getAgility() {
         return agility;
     }
 
+    /**
+     * getter for the health rating
+     *
+     * @return int value of the health
+     */
+    public int getHealthRating() {
+        return healthRating;
+    }
+
+    /**
+     * getter for the Armour
+     *
+     * @return int value of the Armour
+     */
+    public int getArmour() {
+        return armour;
+    }
+
+    /**
+     * setter for the strength given an int
+     */
+    public void setStrength(int strength) {
+        this.strength = strength;
+    }
+
+    /**
+     * setter for the Agility given an int
+     */
     public void setAgility(int agility) {
         this.agility = agility;
     }
 
+    /**
+     * setter for the Armour given an int
+     */
+    public void setArmour(int armour) {
+        this.armour = armour;
+    }
+
+    /**
+     * setter for the HealthRating given an int
+     */
+    public void setHealthRating(int healthRating) {
+        this.healthRating = healthRating;
+    }
+
+    /**
+     * checking if the inhabitant is alive
+     *
+     * @return true if they above 1hp
+     */
     public Boolean isAlive() {
         alive = healthRating >= 1;
         return alive;
     }
 
-    public int getArmour() {
-        return armour;
-    }
-
-    public void setArmour(int armour) {
-        this.armour = armour;
-    }
-
-    public int getHealthRating() {
-        return healthRating;
-    }
-
-    public void setHealthRating(int healthRating) {
-        this.healthRating = healthRating;
-    }
-
+    /**
+     * increases the strength of the inhabitant by 1 point
+     */
     public void increaseStrength() {
         if (alive) {
             if (strength < 10 && strength >= 0) {
@@ -109,19 +164,11 @@ public class Inhabitant {
                 System.out.println("You can't go above 10 Strength");
             }
         }
-
     }
 
-    public void decreaseStrength() {
-        if (alive) {
-            if (strength <= 10 && strength > 0) {
-                strength--;
-            } else {
-                System.out.println("You can't go below 0 Strength");
-            }
-        }
-    }
-
+    /**
+     * increases the agility of the inhabitant by 1 point
+     */
     public void increaseAgility() {
         if (alive) {
             if (agility < 10 && agility >= 0) {
@@ -130,21 +177,11 @@ public class Inhabitant {
                 System.out.println("You can't go above 10 Agility");
             }
         }
-
     }
 
-    public void decreaseAgility() {
-        if (alive) {
-            if (agility <= 10 && agility > 0) {
-                agility--;
-            } else {
-                System.out.println("You can't go below 0 Agility");
-            }
-        }
-
-    }
-
-
+    /**
+     * increases the armour of the inhabitant by 1 point
+     */
     public void increaseArmour() {
         if (alive) {
             if (armour < 10 && armour >= 0) {
@@ -153,20 +190,11 @@ public class Inhabitant {
                 System.out.println("You can't go above 10 Armour");
             }
         }
-
     }
 
-    public void decreaseArmour() {
-        if (alive) {
-            if (armour <= 10 && armour > 0) {
-                armour--;
-            } else {
-                System.out.println("You can't go below 0 Armour");
-            }
-        }
-
-    }
-
+    /**
+     * increases the healthRating of the inhabitant by 1 point
+     */
     public void increaseHealthRating() {
         if (alive) {
             if (healthRating < 10 && healthRating >= 0) {
@@ -177,6 +205,48 @@ public class Inhabitant {
         }
     }
 
+    /**
+     * decreases the strength of the inhabitant by 1 point
+     */
+    public void decreaseStrength() {
+        if (alive) {
+            if (strength <= 10 && strength > 0) {
+                strength--;
+            } else {
+                System.out.println("You can't go below 0 Strength");
+            }
+        }
+    }
+
+    /**
+     * decreases the agility of the inhabitant by 1 point
+     */
+    public void decreaseAgility() {
+        if (alive) {
+            if (agility <= 10 && agility > 0) {
+                agility--;
+            } else {
+                System.out.println("You can't go below 0 Agility");
+            }
+        }
+    }
+
+    /**
+     * decreases the armour of the inhabitant by 1 point
+     */
+    public void decreaseArmour() {
+        if (alive) {
+            if (armour <= 10 && armour > 0) {
+                armour--;
+            } else {
+                System.out.println("You can't go below 0 Armour");
+            }
+        }
+    }
+
+    /**
+     * decreases the healthRating of the inhabitant by 1 point
+     */
     public void decreaseHealthRating() {
         if (alive) {
             if (healthRating <= 10 && healthRating > 0) {
@@ -185,16 +255,13 @@ public class Inhabitant {
                 System.out.println("You can't go below 0 Health Rating");
             }
         }
-
     }
 
     /**
      * This is the damage Calculation used in the attack method
-     * <p>
      * this was the older attack() but because of how one person attacked
      * another I felt as though it was easier to read if I changed the attack
      * and defense method.
-     * <p>
      * I changed how this is done, so now attacking is written as
      * inhabitant.attack(inhabitant2). What this stops is another person
      * blocking an attack from someone else.
@@ -211,6 +278,13 @@ public class Inhabitant {
         return damage;
     }
 
+    /**
+     * the attack method which is more like the defend method in the assignment
+     * I changed this because it has very hard to look at when doing it in the
+     * world java. It's simpler to do inhabitant.attack(inhabitant2).
+     *
+     * @param inhabitant an inhabitant of the world you are looking to attack
+     */
     public void attack(Inhabitant inhabitant) {
         if (alive) {
             if (inhabitant.isAlive()) {
@@ -228,20 +302,6 @@ public class Inhabitant {
         } else {
             System.out.println(getName() + ", you can't do that because you are dead");
         }
-    }
-
-
-
-    public void getFairyOne() {
-    }
-
-    public void getFairyTwo() {
-    }
-
-    public void setFairyOne(Fairy name) {
-    }
-
-    public void setFairyTwo(Fairy name) {
     }
 
     @Override

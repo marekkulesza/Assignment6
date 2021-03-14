@@ -1,10 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1e7cb5e1-003a-4a5f-ace8-d84f31d37f70" name="Default Changelist" comment="adding documentation">
+    <list default="true" id="1e7cb5e1-003a-4a5f-ace8-d84f31d37f70" name="Default Changelist" comment="Changed the heal method to be healer only">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Assignment6/Inheri/Fairy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Assignment6/Inheri/Fairy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Assignment6/Inheri/Healer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Assignment6/Inheri/Healer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Assignment6/Inheri/Human.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Assignment6/Inheri/Human.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Assignment6/Inheri/Hunter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Assignment6/Inheri/Hunter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Assignment6/Inheri/Inhabitant.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Assignment6/Inheri/Inhabitant.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Assignment6/Inheri/Werewolf.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Assignment6/Inheri/Werewolf.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Assignment6/Inheri/World.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Assignment6/Inheri/World.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Inheri/BlueMoon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Inheri/BlueMoon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Inheri/Fairy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Inheri/Fairy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Inheri/Healer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Inheri/Healer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Inheri/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Inheri/Human.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Inheri/Hunter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Inheri/Hunter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Inheri/Inhabitant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Inheri/Inhabitant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Inheri/RedMoon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Inheri/RedMoon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Inheri/Werewolf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Inheri/Werewolf.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Inheri/World.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Inheri/World.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -158,7 +171,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615754545399</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Changed the heal method to be healer only">
+      <created>1615757406868</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1615757406868</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -183,6 +203,7 @@
     <MESSAGE value="used super to string on everything" />
     <MESSAGE value="finished getting the fairy to innervate and only allowing the healer to have one werewolf friend" />
     <MESSAGE value="adding documentation" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding documentation" />
+    <MESSAGE value="Changed the heal method to be healer only" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed the heal method to be healer only" />
   </component>
 </project>
