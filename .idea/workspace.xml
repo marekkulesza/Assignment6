@@ -1,16 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1e7cb5e1-003a-4a5f-ace8-d84f31d37f70" name="Default Changelist" comment="Fixed attack and damage gave a lot of souts and got the healing to work">
-      <change afterPath="$PROJECT_DIR$/src/Inheri/BlueMoon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Inheri/RedMoon.java" afterDir="false" />
+    <list default="true" id="1e7cb5e1-003a-4a5f-ace8-d84f31d37f70" name="Default Changelist" comment="new increase and decrease methods for inhabitants">
+      <change afterPath="$PROJECT_DIR$/src/Inheri/Fairy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Inheri/Werewolf.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Assignment6/Inheri/Fairies.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Assignment6/Inheri/Fairies.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Assignment6/Inheri/Werewolves.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Assignment6/Inheri/Werewolves.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Assignment6/Inheri/Fairies.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Assignment6/Inheri/Healer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Assignment6/Inheri/Healer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Assignment6/Inheri/Hunter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Assignment6/Inheri/Hunter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Assignment6/Inheri/Inhabitant.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Assignment6/Inheri/Inhabitant.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Assignment6/Inheri/Werewolves.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Assignment6/Inheri/World.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Assignment6/Inheri/World.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Inheri/Fairies.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Inheri/Fairies.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Inheri/BlueMoon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Inheri/BlueMoon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Inheri/Fairies.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Inheri/Healer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Inheri/Healer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Inheri/Hunter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Inheri/Hunter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Inheri/Inhabitant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Inheri/Inhabitant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Inheri/Werewolves.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Inheri/Werewolves.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Inheri/RedMoon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Inheri/RedMoon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Inheri/Werewolves.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Inheri/World.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Inheri/World.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,7 +45,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
-  <component name="RunManager" selected="Application.OverrideTests">
+  <component name="RunManager" selected="Application.World">
     <configuration name="OverrideTests" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="week8code.OverrideTests" />
       <extension name="coverage">
@@ -129,7 +136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615695853879</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="new increase and decrease methods for inhabitants">
+      <created>1615745269113</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1615745269113</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -149,6 +163,7 @@
     <MESSAGE value="more of the begining part finisehd the attack() here" />
     <MESSAGE value="lots of the attack and defend has been changed" />
     <MESSAGE value="Fixed attack and damage gave a lot of souts and got the healing to work" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed attack and damage gave a lot of souts and got the healing to work" />
+    <MESSAGE value="new increase and decrease methods for inhabitants" />
+    <option name="LAST_COMMIT_MESSAGE" value="new increase and decrease methods for inhabitants" />
   </component>
 </project>

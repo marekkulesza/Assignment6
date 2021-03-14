@@ -11,7 +11,7 @@ public class Hunter extends Human {
     }
 
     @Override
-    public int attack(Inhabitant inhabitant){
+    public int damageCalc(Inhabitant inhabitant){
         int damage;
         damage = ((getStrength() + getAgility() + getHealthRating()) / 3);
         System.out.println("A special hunter attack is being used");
@@ -23,7 +23,13 @@ public class Hunter extends Human {
 
     @Override
     public String toString() {
-        return "Hunter{" + name +
+        return "Hunter{" +
+                "name='" + name + '\'' +
+                ", alive=" + alive +
+                ", strength=" + strength +
+                ", agility=" + agility +
+                ", armour=" + armour +
+                ", healthRating=" + healthRating +
                 '}';
     }
 }

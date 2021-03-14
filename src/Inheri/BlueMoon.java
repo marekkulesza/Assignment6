@@ -1,6 +1,6 @@
 package Inheri;
 
-public class BlueMoon extends Werewolves{
+public class BlueMoon extends Werewolf {
 
     final String pack = "Blue Moon";
 
@@ -8,15 +8,11 @@ public class BlueMoon extends Werewolves{
         super(name);
     }
 
-    public void blueFairyNameHelp() {
-        System.out.println("blue, slate, sky, navy, indigo, cobalt, teal, ocean, sapphire, artic, berry, lapis, azure, aegean");
-    }
-
     @Override
     public String toString() {
         return "BlueMoon{" +
-                "pack='" + pack + '\'' +
-                ", name='" + name + '\'' +
+                "name='" + name + '\'' +
+                ", pack='" + pack + '\'' +
                 ", fairyOne=" + fairyOne +
                 ", fairyTwo=" + fairyTwo +
                 '}';

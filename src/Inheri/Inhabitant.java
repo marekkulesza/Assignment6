@@ -69,10 +69,14 @@ public class Inhabitant {
 
     public void increaseStrength() {
         if (alive) {
-            if (strength <= 10 && strength >=0){
+            if (strength < 10 && strength >=0){
                 strength++;
             }
+            else {
+                System.out.println("You can't go above 10 Strength");
+            }
         }
+
     }
 
     public void decreaseStrength(){
@@ -80,15 +84,22 @@ public class Inhabitant {
             if (strength <= 10 && strength >0){
                 strength--;
             }
+            else {
+                System.out.println("You can't go below 0 Strength");
+            }
         }
     }
 
     public void increaseAgility() {
         if (alive) {
-            if (agility <= 10 && agility >=0){
+            if (agility < 10 && agility >=0){
                 agility++;
             }
+            else {
+                System.out.println("You can't go above 10 Agility");
+            }
         }
+
     }
 
     public void decreaseAgility(){
@@ -96,16 +107,24 @@ public class Inhabitant {
             if (agility <= 10 && agility >0){
                 agility--;
             }
+            else {
+                System.out.println("You can't go below 0 Agility");
+            }
         }
+
     }
 
 
     public void increaseArmour() {
         if (alive) {
-            if (armour <= 10 && armour >=0){
+            if (armour < 10 && armour >=0){
                 armour++;
             }
+            else {
+                System.out.println("You can't go above 10 Armour");
+            }
         }
+
     }
 
     public void decreaseArmour(){
@@ -113,13 +132,20 @@ public class Inhabitant {
             if (armour <= 10 && armour >0){
                 armour--;
             }
+            else {
+                System.out.println("You can't go below 0 Armour");
+            }
         }
+
     }
 
     public void increaseHealthRating() {
         if (alive) {
-            if (healthRating <= 10 && healthRating >=0){
+            if (healthRating < 10 && healthRating >=0){
                 healthRating++;
+            }
+            else {
+                System.out.println("You can't go above 10 Health Rating");
             }
         }
     }
@@ -129,10 +155,28 @@ public class Inhabitant {
             if (healthRating <= 10 && healthRating >0){
                 healthRating--;
             }
+            else {
+                System.out.println("You can't go below 0 Health Rating");
+            }
         }
+
     }
 
-    public int attack(Inhabitant inhabitant){
+    /**
+     * This is the damage Calculation used in the attack method
+     *
+     * this was the older attack() but because of how one person attacked
+     * another I felt as though it was easier to read if I changed the attack
+     * and defense method.
+     *
+     * I changed how this is done, so now attacking is written as
+     * inhabitant.attack(inhabitant2). What this stops is another person
+     * blocking an attack from someone else.
+     *
+     * @param inhabitant the inhabitant that is attacking
+     * @return an int representing the damage
+     */
+    public int damageCalc(Inhabitant inhabitant){
         int damage;
         damage = ((getStrength() + getAgility() + getHealthRating()) / 3);
         if (damage < 1){
@@ -141,11 +185,11 @@ public class Inhabitant {
         return damage;
     }
 
-    public void defend(Inhabitant inhabitant){
+    public void attack(Inhabitant inhabitant){
         if (alive) {
             if (inhabitant.isAlive()) {
                 int loss;
-                loss = ((attack(inhabitant) / getArmour()));
+                loss = ((damageCalc(inhabitant) / getArmour()));
                 if (loss < 1) {
                     loss = 1;
                 }
@@ -162,6 +206,10 @@ public class Inhabitant {
         }
     }
 
+    public void curaga(Inhabitant inhabitant) {
+        System.out.println("You can't cast this");
+    }
+
     @Override
     public String toString() {
         return "Inhabitant{" +
@@ -174,7 +222,18 @@ public class Inhabitant {
                 '}';
     }
 
-    public void curaga(Inhabitant inhabitant) {
-        System.out.println("You can't cast this");
+
+    public void getFairyOne() {
     }
+
+    public void getFairyTwo() {
+    }
+
+    public void setFairyOne(Fairy name ) {
+    }
+
+    public void setFairyTwo(Fairy name ) {
+    }
+
 }
+
