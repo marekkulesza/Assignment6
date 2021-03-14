@@ -29,6 +29,7 @@ public class World {
         BetterAreith.curaga(Hunter);
         BetterHunter.curaga(Hunter);
 
+        System.out.println("yeet");
 
     }
 }

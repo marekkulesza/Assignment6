@@ -1,14 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1e7cb5e1-003a-4a5f-ace8-d84f31d37f70" name="Default Changelist" comment="lots of the attack and defend has been changed">
-      <change afterPath="$PROJECT_DIR$/src/Inheri/World.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Inheri/Healer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Inheri/Healer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Inheri/Humans.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Inheri/Human.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Inheri/Hunter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Inheri/Hunter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Inheri/Inhabitant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Inheri/Inhabitant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Inheri/Werewolves.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Inheri/Werewolves.java" afterDir="false" />
+    <list default="true" id="1e7cb5e1-003a-4a5f-ace8-d84f31d37f70" name="Default Changelist" comment="Fixed attack and damage gave a lot of souts and got the healing to work">
+      <change beforePath="$PROJECT_DIR$/src/Inheri/World.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Inheri/World.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +106,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615689376488</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Fixed attack and damage gave a lot of souts and got the healing to work">
+      <created>1615695561867</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1615695561867</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -131,6 +132,7 @@
     <MESSAGE value="Finished making more of the classes and extensions" />
     <MESSAGE value="more of the begining part finisehd the attack() here" />
     <MESSAGE value="lots of the attack and defend has been changed" />
-    <option name="LAST_COMMIT_MESSAGE" value="lots of the attack and defend has been changed" />
+    <MESSAGE value="Fixed attack and damage gave a lot of souts and got the healing to work" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed attack and damage gave a lot of souts and got the healing to work" />
   </component>
 </project>
