@@ -2,6 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e7cb5e1-003a-4a5f-ace8-d84f31d37f70" name="Default Changelist" comment="Fixed attack and damage gave a lot of souts and got the healing to work">
+      <change afterPath="$PROJECT_DIR$/src/Inheri/BlueMoon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Inheri/RedMoon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Assignment6/Inheri/Fairies.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Assignment6/Inheri/Fairies.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Assignment6/Inheri/Werewolves.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Assignment6/Inheri/Werewolves.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Assignment6/Inheri/World.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Assignment6/Inheri/World.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Inheri/Fairies.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Inheri/Fairies.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Inheri/Inhabitant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Inheri/Inhabitant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Inheri/Werewolves.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Inheri/Werewolves.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Inheri/World.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Inheri/World.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -113,7 +122,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615695561867</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Fixed attack and damage gave a lot of souts and got the healing to work">
+      <created>1615695853878</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1615695853879</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

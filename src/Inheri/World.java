@@ -7,8 +7,6 @@ public class World {
         Inhabitant BetterAreith = new Healer("Better Areith",4,4,6,7);
         Inhabitant BetterHunter = new Hunter("Better Mama",4,4,6,7);
 
-
-
         System.out.println(Areith);
         System.out.println(Hunter);
 
@@ -29,7 +27,22 @@ public class World {
         BetterAreith.curaga(Hunter);
         BetterHunter.curaga(Hunter);
 
-        System.out.println("yeet");
+        System.out.println("Human fight is over");
+
+        Inhabitant Edward = new RedMoon("Edward");
+        Inhabitant Jacob = new BlueMoon("Jacob");
+
+        System.out.println(Edward);
+        System.out.println(Jacob);
+
+        Edward.setFairyOne("Rose");
+        Edward.setFairyTwo("Ruby");
+
+        Jacob.setFairyOne("Azure");
+        Jacob.setFairyTwo("Sapphire");
+
+
+
 
     }
 }

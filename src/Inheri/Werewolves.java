@@ -9,6 +9,14 @@ public class Werewolves extends Inhabitant {
         super(name);
     }
 
+    public Fairies getFairyOne() {
+        return fairyOne;
+    }
+
+    public Fairies getFairyTwo() {
+        return fairyTwo;
+    }
+
     public void setFairyOne(Fairies fairyOne) {
         this.fairyOne = fairyOne;
     }
@@ -16,7 +24,5 @@ public class Werewolves extends Inhabitant {
     public void setFairyTwo(Fairies fairyTwo) {
         this.fairyTwo = fairyTwo;
     }
-
-
 
 }

@@ -67,45 +67,67 @@ public class Inhabitant {
         this.healthRating = healthRating;
     }
 
-    public void changeStrength(int strength) {
+    public void increaseStrength() {
         if (alive) {
-            if (strength == 1 || strength == -1){
-                this.strength += strength;
-            }
-            else {
-                System.out.println("you can only increase or decrease by 1 or -1");
+            if (strength <= 10 && strength >=0){
+                strength++;
             }
         }
     }
 
-    public void changeAgility(int agility) {
-        if (alive){
-            if (agility == 1 || agility == -1){
-                this.agility += agility;
-            }
-            else {
-                System.out.println("you can only increase or decrease by 1 or -1");
+    public void decreaseStrength(){
+        if (alive) {
+            if (strength <= 10 && strength >0){
+                strength--;
             }
         }
     }
 
-    public void changeArmour(int armour) {
+    public void increaseAgility() {
         if (alive) {
-            if (armour == 1 || armour == -1){
-                this.armour += armour;
-            }        else {
-                System.out.println("you can only increase or decrease by 1 or -1");
+            if (agility <= 10 && agility >=0){
+                agility++;
             }
         }
     }
 
-    public void changeHealthRating(int healthRating) {
+    public void decreaseAgility(){
         if (alive) {
-            if (healthRating == 1 || healthRating == -1){
-                this.healthRating += healthRating;
+            if (agility <= 10 && agility >0){
+                agility--;
             }
-            else {
-                System.out.println("you can only increase or decrease by 1 or -1");
+        }
+    }
+
+
+    public void increaseArmour() {
+        if (alive) {
+            if (armour <= 10 && armour >=0){
+                armour++;
+            }
+        }
+    }
+
+    public void decreaseArmour(){
+        if (alive) {
+            if (armour <= 10 && armour >0){
+                armour--;
+            }
+        }
+    }
+
+    public void increaseHealthRating() {
+        if (alive) {
+            if (healthRating <= 10 && healthRating >=0){
+                healthRating++;
+            }
+        }
+    }
+
+    public void decreaseHealthRating(){
+        if (alive) {
+            if (healthRating <= 10 && healthRating >0){
+                healthRating--;
             }
         }
     }
