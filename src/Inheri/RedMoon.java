@@ -2,8 +2,6 @@ package Inheri;
 
 public class RedMoon extends Werewolf {
 
-    final String pack = "Red Moon";
-
     public RedMoon(String name) {
         super(name);
     }

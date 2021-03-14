@@ -200,19 +200,6 @@ public class Inhabitant {
         System.out.println("You can't cast this");
     }
 
-    @Override
-    public String toString() {
-        return "Inhabitant{" +
-                "name='" + name + '\'' +
-                ", alive=" + alive +
-                ", strength=" + strength +
-                ", agility=" + agility +
-                ", armour=" + armour +
-                ", healthRating=" + healthRating +
-                '}';
-    }
-
-
     public void getFairyOne() {
     }
 
@@ -225,5 +212,16 @@ public class Inhabitant {
     public void setFairyTwo(Fairy name) {
     }
 
+    @Override
+    public String toString() {
+        return "Inhabitant{" +
+                "name='" + name + '\'' +
+                ", alive=" + alive +
+                ", strength=" + strength +
+                ", agility=" + agility +
+                ", armour=" + armour +
+                ", healthRating=" + healthRating +
+                '}';
+    }
 }
 

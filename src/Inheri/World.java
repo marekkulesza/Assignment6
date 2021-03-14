@@ -13,6 +13,8 @@ public class World {
         System.out.println(BetterAreith);
         System.out.println(BetterHunter);
 
+        System.out.println(Areith.getName());
+
         Areith.attack(Hunter);
         Hunter.attack(Areith);
         Hunter.attack(Areith);
@@ -68,8 +70,24 @@ public class World {
         System.out.println(Edward);
         System.out.println(Jacob);
 
-
         // Werewolf broken = new Hunter("Jacob2.0");
+
+        Edward.attack(Jacob);
+
+        System.out.println(Jacob);
+        System.out.println(Edward);
+
+        System.out.println(Edward.getName());
+        System.out.println(Edward.getHealthRating());
+
+        System.out.println(Areith);
+        Sapphire.innervate(Areith);
+        System.out.println(Areith);
+
+        Areith.setWerewolfFriend(Jacob);
+        System.out.println(Areith);
+        Areith.setWerewolfFriend(Edward);
+        System.out.println(Areith);
 
     }
 }

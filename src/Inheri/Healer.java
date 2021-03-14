@@ -2,7 +2,28 @@ package Inheri;
 
 public class Healer extends Human {
 
+    final String humanSubClass = "Healer";
+    Werewolf WerewolfFriend;
+
     int magicRating = (int) ((Math.random() * 10) + 0);
+
+    public void setWerewolfFriend(Werewolf werewolfFriend) {
+        if(WerewolfFriend == null){
+            this.WerewolfFriend = werewolfFriend;
+        }
+    }
+
+    public String getHumanSubClass() {
+        return humanSubClass;
+    }
+
+    public void setMagicRating(int magicRating) {
+        this.magicRating = magicRating;
+    }
+
+    public int getMagicRating() {
+        return magicRating;
+    }
 
     public Healer(String name) {
         super(name);
@@ -39,6 +60,7 @@ public class Healer extends Human {
     public String toString() {
         return "Healer{" +
                 super.toString() +
+                " Werewolf Friend= " + WerewolfFriend+
                 " magicRating=" + magicRating + "}";
 
     }

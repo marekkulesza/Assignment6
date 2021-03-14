@@ -2,6 +2,7 @@ package Inheri;
 
 public class Hunter extends Human {
 
+    final String humanSubClass = "Hunter";
     public Hunter(String name) {
         super(name);
     }
