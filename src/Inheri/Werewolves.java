@@ -1,6 +1,6 @@
 package Inheri;
 
-public class Werewolves extends inhabitants{
+public class Werewolves extends Inhabitant {
 
     Fairies fairyOne;
     Fairies fairyTwo;

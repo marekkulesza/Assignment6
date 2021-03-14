@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1e7cb5e1-003a-4a5f-ace8-d84f31d37f70" name="Default Changelist" comment="Finished making more of the classes and extensions">
+    <list default="true" id="1e7cb5e1-003a-4a5f-ace8-d84f31d37f70" name="Default Changelist" comment="more of the begining part finisehd the attack() here">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Inheri/Fairies.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Inheri/Fairies.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Inheri/Humans.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Inheri/Humans.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Inheri/Werewolves.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Inheri/Werewolves.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Inheri/healer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Inheri/healer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Inheri/hunter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Inheri/hunter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Inheri/inhabitants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Inheri/inhabitants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Inheri/healer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Inheri/Healer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Inheri/hunter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Inheri/Hunter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Inheri/inhabitants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Inheri/Inhabitant.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +65,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615669709208</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="more of the begining part finisehd the attack() here">
+      <created>1615675660575</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1615675660575</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -82,6 +89,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="making the inhabitants of the world" />
     <MESSAGE value="Finished making more of the classes and extensions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished making more of the classes and extensions" />
+    <MESSAGE value="more of the begining part finisehd the attack() here" />
+    <option name="LAST_COMMIT_MESSAGE" value="more of the begining part finisehd the attack() here" />
   </component>
 </project>

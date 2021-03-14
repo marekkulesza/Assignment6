@@ -1,6 +1,6 @@
 package Inheri;
 
-public class Humans extends inhabitants{
+public class Humans extends Inhabitant {
 
     String role;
 

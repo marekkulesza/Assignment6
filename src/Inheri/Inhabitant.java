@@ -1,13 +1,13 @@
 package Inheri;
 
-public class inhabitants {
+public class Inhabitant {
 
     final String name;
     boolean alive;
 
     int strength,agility,armour,healthRating;
 
-    public inhabitants(String name) {
+    public Inhabitant(String name) {
         this.name = name;
     }
 
@@ -71,7 +71,6 @@ public class inhabitants {
                 System.out.println("you can only increase or decrease by 1 or -1");
             }
         }
-
     }
 
     public void changeArmour(int armour) {
@@ -95,10 +94,24 @@ public class inhabitants {
         }
     }
 
-    public int attack(){
-        int damage;
-        damage = ((getStrength() + getAgility() + getHealthRating())/3);
-        return damage;
+    public int attack(Inhabitant inhabitant){
+        if (alive) {
+            int damage;
+            damage = ((getStrength() + getAgility() + getHealthRating()) / 3);
+            return damage;
+        }
+        return 0;
     }
 
+    public void defend(Inhabitant inhabitant){
+        if (alive) {
+            int loss;
+            loss = ((attack(inhabitant) / getArmour()));
+            if (loss < 1) {
+                loss = 1;
+            }
+            inhabitant.setHealthRating(inhabitant.getHealthRating() - loss);
+        }
+
+    }
 }
