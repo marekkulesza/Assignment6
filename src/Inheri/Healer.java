@@ -36,7 +36,7 @@ public class Healer extends Human {
         super(name, strength, agility, armour, healthRating);
     }
 
-    @Override
+
     public void curaga(Inhabitant inhabitant) {
         if (alive) {
             if (inhabitant.isAlive()) {
@@ -63,8 +63,8 @@ public class Healer extends Human {
     public String toString() {
         return "Healer{" +
                 super.toString() +
-                " Werewolf Friend= " + WerewolfFriend+
-                " magicRating=" + magicRating + "}";
+                " WerewolfFriend= " + WerewolfFriend+
+                ", magicRating=" + magicRating + "}";
 
     }
 }

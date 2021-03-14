@@ -13,9 +13,9 @@ package Inheri;
 
 public class World {
     public static void main(String[] args) {
-        Human Areith = new Healer("Areith");
+        Healer Areith = new Healer("Areith");
         Human Hunter = new Hunter("Mama");
-        Human BetterAreith = new Healer("Better Areith", 4, 4, 6, 7);
+        Healer BetterAreith = new Healer("Better Areith", 4, 4, 6, 7);
         Human BetterHunter = new Hunter("Better Mama", 4, 4, 6, 7);
 
         System.out.println(Areith);
@@ -38,7 +38,6 @@ public class World {
         System.out.println(Hunter);
 
         BetterAreith.curaga(Hunter);
-        BetterHunter.curaga(Hunter);
 
         Hunter.increaseAgility();
         Hunter.increaseStrength();

@@ -230,9 +230,7 @@ public class Inhabitant {
         }
     }
 
-    public void curaga(Inhabitant inhabitant) {
-        System.out.println("You can't cast this");
-    }
+
 
     public void getFairyOne() {
     }

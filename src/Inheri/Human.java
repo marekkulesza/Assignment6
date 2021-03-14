@@ -4,10 +4,6 @@ public class Human extends Inhabitant {
 
     String humanSubClass;
     int magicRating = 0;
-    Werewolf WerewolfFriend;
-
-    public void setWerewolfFriend(Werewolf werewolfFriend) {
-    }
 
     public String getHumanSubClass() {
         return humanSubClass;
