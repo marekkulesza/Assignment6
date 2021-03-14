@@ -1,19 +1,53 @@
 package Inheri;
 
+/**
+ * This is assignment 6, all inhabitants of the world
+ * all inhabitants have a list of skills that they can use
+ * some differ from others so you'll have to check and see
+ *
+ * name, strength, agility, armour, and healthRating
+ *
+ * @author Marek Kulesza
+ */
+
 public class Inhabitant {
 
+    /**
+     * The name of the inhabitant
+     */
     String name;
 
+    /**
+     * if the inhabitant is alive or not
+     * inhabitants should not be allowed to
+     * revive from the dead
+     */
     boolean alive = true;
 
+    /**
+     * default strength stat set at 4
+     */
     int strength = 4;
 
+    /**
+     * default agility stat set at 4
+     */
     int agility = 4;
 
+    /**
+     * default armour stat set at 4
+     */
     int armour = 4;
 
+    /**
+     * default healthRating stat set at 4
+     */
     int healthRating = 4;
 
+    /**
+     *
+     * @param name
+     */
     public Inhabitant(String name) {
         this.name = name;
     }

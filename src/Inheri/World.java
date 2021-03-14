@@ -1,5 +1,16 @@
 package Inheri;
 
+/**
+ * This is assignment 6, an RPG game
+ * the idea of this project was to create a world of
+ * inheritance, in which people, werewolves, and fairies
+ * can be played around which each other. Humans have two
+ * subclasses either hunter or healer, werewolves are of two
+ * packs redmoon or blue moon, and fairies innervate human healers
+ *
+ * @author Marek Kulesza
+ */
+
 public class World {
     public static void main(String[] args) {
         Human Areith = new Healer("Areith");
@@ -86,7 +97,7 @@ public class World {
 
         Areith.setWerewolfFriend(Jacob);
         System.out.println(Areith);
-        Areith.setWerewolfFriend(Edward);
+        Areith.setWerewolfFriend(Edward); // Doesn't work as intended
         System.out.println(Areith);
 
     }

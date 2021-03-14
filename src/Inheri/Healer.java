@@ -11,6 +11,9 @@ public class Healer extends Human {
         if(WerewolfFriend == null){
             this.WerewolfFriend = werewolfFriend;
         }
+        else {
+            System.out.println("Only one werewolf can be set");
+        }
     }
 
     public String getHumanSubClass() {
