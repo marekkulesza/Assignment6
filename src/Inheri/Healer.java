@@ -38,13 +38,8 @@ public class Healer extends Human {
     @Override
     public String toString() {
         return "Healer{" +
-                "magicRating=" + magicRating +
-                ", name='" + name + '\'' +
-                ", alive=" + alive +
-                ", strength=" + strength +
-                ", agility=" + agility +
-                ", armour=" + armour +
-                ", healthRating=" + healthRating +
-                '}';
+                super.toString() +
+                " magicRating=" + magicRating + "}";
+
     }
 }

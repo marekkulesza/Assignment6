@@ -69,22 +69,20 @@ public class Inhabitant {
 
     public void increaseStrength() {
         if (alive) {
-            if (strength < 10 && strength >=0){
+            if (strength < 10 && strength >= 0) {
                 strength++;
-            }
-            else {
+            } else {
                 System.out.println("You can't go above 10 Strength");
             }
         }
 
     }
 
-    public void decreaseStrength(){
+    public void decreaseStrength() {
         if (alive) {
-            if (strength <= 10 && strength >0){
+            if (strength <= 10 && strength > 0) {
                 strength--;
-            }
-            else {
+            } else {
                 System.out.println("You can't go below 0 Strength");
             }
         }
@@ -92,22 +90,20 @@ public class Inhabitant {
 
     public void increaseAgility() {
         if (alive) {
-            if (agility < 10 && agility >=0){
+            if (agility < 10 && agility >= 0) {
                 agility++;
-            }
-            else {
+            } else {
                 System.out.println("You can't go above 10 Agility");
             }
         }
 
     }
 
-    public void decreaseAgility(){
+    public void decreaseAgility() {
         if (alive) {
-            if (agility <= 10 && agility >0){
+            if (agility <= 10 && agility > 0) {
                 agility--;
-            }
-            else {
+            } else {
                 System.out.println("You can't go below 0 Agility");
             }
         }
@@ -117,22 +113,20 @@ public class Inhabitant {
 
     public void increaseArmour() {
         if (alive) {
-            if (armour < 10 && armour >=0){
+            if (armour < 10 && armour >= 0) {
                 armour++;
-            }
-            else {
+            } else {
                 System.out.println("You can't go above 10 Armour");
             }
         }
 
     }
 
-    public void decreaseArmour(){
+    public void decreaseArmour() {
         if (alive) {
-            if (armour <= 10 && armour >0){
+            if (armour <= 10 && armour > 0) {
                 armour--;
-            }
-            else {
+            } else {
                 System.out.println("You can't go below 0 Armour");
             }
         }
@@ -141,21 +135,19 @@ public class Inhabitant {
 
     public void increaseHealthRating() {
         if (alive) {
-            if (healthRating < 10 && healthRating >=0){
+            if (healthRating < 10 && healthRating >= 0) {
                 healthRating++;
-            }
-            else {
+            } else {
                 System.out.println("You can't go above 10 Health Rating");
             }
         }
     }
 
-    public void decreaseHealthRating(){
+    public void decreaseHealthRating() {
         if (alive) {
-            if (healthRating <= 10 && healthRating >0){
+            if (healthRating <= 10 && healthRating > 0) {
                 healthRating--;
-            }
-            else {
+            } else {
                 System.out.println("You can't go below 0 Health Rating");
             }
         }
@@ -164,11 +156,11 @@ public class Inhabitant {
 
     /**
      * This is the damage Calculation used in the attack method
-     *
+     * <p>
      * this was the older attack() but because of how one person attacked
      * another I felt as though it was easier to read if I changed the attack
      * and defense method.
-     *
+     * <p>
      * I changed how this is done, so now attacking is written as
      * inhabitant.attack(inhabitant2). What this stops is another person
      * blocking an attack from someone else.
@@ -176,16 +168,16 @@ public class Inhabitant {
      * @param inhabitant the inhabitant that is attacking
      * @return an int representing the damage
      */
-    public int damageCalc(Inhabitant inhabitant){
+    public int damageCalc(Inhabitant inhabitant) {
         int damage;
         damage = ((getStrength() + getAgility() + getHealthRating()) / 3);
-        if (damage < 1){
+        if (damage < 1) {
             damage = 1;
         }
         return damage;
     }
 
-    public void attack(Inhabitant inhabitant){
+    public void attack(Inhabitant inhabitant) {
         if (alive) {
             if (inhabitant.isAlive()) {
                 int loss;
@@ -196,12 +188,10 @@ public class Inhabitant {
                 System.out.println(getName() + " dealt " + loss + " damage to " + inhabitant.getName());
                 inhabitant.setHealthRating(inhabitant.getHealthRating() - loss);
                 System.out.println(inhabitant.getName() + " has " + inhabitant.getHealthRating() + " hp");
-            }
-            else {
+            } else {
                 System.out.println(inhabitant.getName() + " is dead");
             }
-        }
-        else {
+        } else {
             System.out.println(getName() + ", you can't do that because you are dead");
         }
     }
@@ -229,10 +219,10 @@ public class Inhabitant {
     public void getFairyTwo() {
     }
 
-    public void setFairyOne(Fairy name ) {
+    public void setFairyOne(Fairy name) {
     }
 
-    public void setFairyTwo(Fairy name ) {
+    public void setFairyTwo(Fairy name) {
     }
 
 }

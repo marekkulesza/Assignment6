@@ -4,8 +4,8 @@ public class World {
     public static void main(String[] args) {
         Human Areith = new Healer("Areith");
         Human Hunter = new Hunter("Mama");
-        Human BetterAreith = new Healer("Better Areith",4,4,6,7);
-        Human BetterHunter = new Hunter("Better Mama",4,4,6,7);
+        Human BetterAreith = new Healer("Better Areith", 4, 4, 6, 7);
+        Human BetterHunter = new Hunter("Better Mama", 4, 4, 6, 7);
 
         System.out.println(Areith);
         System.out.println(Hunter);
@@ -69,7 +69,7 @@ public class World {
         System.out.println(Jacob);
 
 
-
+        // Werewolf broken = new Hunter("Jacob2.0");
 
     }
 }

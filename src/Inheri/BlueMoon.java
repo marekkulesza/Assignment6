@@ -11,10 +11,6 @@ public class BlueMoon extends Werewolf {
     @Override
     public String toString() {
         return "BlueMoon{" +
-                "name='" + name + '\'' +
-                ", pack='" + pack + '\'' +
-                ", fairyOne=" + fairyOne +
-                ", fairyTwo=" + fairyTwo +
-                '}';
+                super.toString();
     }
 }

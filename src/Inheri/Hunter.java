@@ -24,12 +24,6 @@ public class Hunter extends Human {
     @Override
     public String toString() {
         return "Hunter{" +
-                "name='" + name + '\'' +
-                ", alive=" + alive +
-                ", strength=" + strength +
-                ", agility=" + agility +
-                ", armour=" + armour +
-                ", healthRating=" + healthRating +
-                '}';
+                super.toString();
     }
 }

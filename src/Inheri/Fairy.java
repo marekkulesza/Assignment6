@@ -8,8 +8,7 @@ public class Fairy extends Inhabitant {
 
     @Override
     public String toString() {
-        return "Fairies{" +
-                "name='" + name + '\'' +
-                '}';
+        return "Fairy{" +
+                super.toString();
     }
 }

@@ -14,6 +14,6 @@ public class Human extends Inhabitant {
     @Override
     public String toString() {
         return "Human{" +
-                '}';
+                super.toString();
     }
 }

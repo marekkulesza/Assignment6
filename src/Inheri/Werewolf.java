@@ -20,7 +20,9 @@ public class Werewolf extends Inhabitant {
     @Override
     public String toString() {
         return "Werewolf{" +
-                "name='" + name + '\'' +
+                super.toString() +
+                ", " + fairyOne +
+                ", " + fairyTwo +
                 '}';
     }
 }

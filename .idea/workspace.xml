@@ -1,23 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1e7cb5e1-003a-4a5f-ace8-d84f31d37f70" name="Default Changelist" comment="new increase and decrease methods for inhabitants">
-      <change afterPath="$PROJECT_DIR$/src/Inheri/Fairy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Inheri/Werewolf.java" afterDir="false" />
+    <list default="true" id="1e7cb5e1-003a-4a5f-ace8-d84f31d37f70" name="Default Changelist" comment="redid some of the creation of inhabitants">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Assignment6/Inheri/Fairies.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Assignment6/Inheri/Healer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Assignment6/Inheri/Healer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Assignment6/Inheri/Hunter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Assignment6/Inheri/Hunter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Assignment6/Inheri/Inhabitant.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Assignment6/Inheri/Inhabitant.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Assignment6/Inheri/Werewolves.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Assignment6/Inheri/World.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Assignment6/Inheri/World.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Inheri/BlueMoon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Inheri/BlueMoon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Inheri/Fairies.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Inheri/Healer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Inheri/Healer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Inheri/Hunter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Inheri/Hunter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Inheri/Inhabitant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Inheri/Inhabitant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Inheri/Fairy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Inheri/Fairy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Inheri/RedMoon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Inheri/RedMoon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Inheri/Werewolves.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Inheri/Werewolf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Inheri/Werewolf.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Inheri/World.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Inheri/World.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -143,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615745269113</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="redid some of the creation of inhabitants">
+      <created>1615748511321</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1615748511321</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -164,6 +161,7 @@
     <MESSAGE value="lots of the attack and defend has been changed" />
     <MESSAGE value="Fixed attack and damage gave a lot of souts and got the healing to work" />
     <MESSAGE value="new increase and decrease methods for inhabitants" />
-    <option name="LAST_COMMIT_MESSAGE" value="new increase and decrease methods for inhabitants" />
+    <MESSAGE value="redid some of the creation of inhabitants" />
+    <option name="LAST_COMMIT_MESSAGE" value="redid some of the creation of inhabitants" />
   </component>
 </project>
