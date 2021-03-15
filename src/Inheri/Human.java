@@ -12,6 +12,7 @@ public class Human extends Inhabitant {
 
     /**
      * a constructor with name and stats
+     *
      * @param name string name
      * @param strength int value of strength
      * @param agility int value of agility

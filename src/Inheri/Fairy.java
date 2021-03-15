@@ -28,9 +28,14 @@ public class Fairy extends Inhabitant {
      * @param healer Healer type to be innervated
      */
     public void innervate(Healer healer) {
-        int randomNum = (int) ((Math.random() * 10) + 0);
-        healer.setMagicRating(randomNum);
-        System.out.println(getName() + " has innervated " + healer.getName() + " to " + randomNum + " mana");
+        if (healer.isAlive()) {
+            int randomNum = (int) ((Math.random() * 10) + 0);
+            healer.setMagicRating(randomNum);
+            System.out.println(getName() + " has innervated " + healer.getName() + " to " + randomNum + " mana");
+        }
+        else {
+            System.out.println("Healer is not doing so well ");
+        }
     }
 
     @Override

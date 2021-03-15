@@ -5,7 +5,7 @@ public class Healer extends Human {
     /**
      * a special friend that can only be set once
      */
-    Werewolf WerewolfFriend;
+    Werewolf werewolfFriend;
 
     /**
      * int value for the amount of magic a healer has automatically generated from 0 to 10
@@ -28,9 +28,10 @@ public class Healer extends Human {
      * @param agility int value of agility
      * @param armour int value of armour
      * @param healthRating int value of healthRating
-     * @param magicRating int value of magicRaing
+     * @param magicRating int value of magicRating
+     * @param werewolfFriend Werewolf friend starter
      */
-    public Healer(String name, int strength, int agility, int armour, int healthRating, int magicRating) {
+    public Healer(String name, int strength, int agility, int armour, int healthRating, int magicRating, Werewolf werewolfFriend) {
         super(name, strength, agility, armour, healthRating);
         this.magicRating = magicRating;
     }
@@ -41,8 +42,8 @@ public class Healer extends Human {
      * @param werewolfFriend a Werewolf can be your friend
      */
     public void setWerewolfFriend(Werewolf werewolfFriend) {
-        if(WerewolfFriend == null){
-            this.WerewolfFriend = werewolfFriend;
+        if(this.werewolfFriend == null){
+            this.werewolfFriend = werewolfFriend;
         }
         else {
             System.out.println("Only one werewolf can be set");
@@ -62,7 +63,7 @@ public class Healer extends Human {
      * @return a Werewolf type for the Werewolf friend
      */
     public Werewolf getWerewolfFriend() {
-        return WerewolfFriend;
+        return werewolfFriend;
     }
 
     /**
@@ -106,7 +107,7 @@ public class Healer extends Human {
     public String toString() {
         return "Healer{" +
                 super.toString() +
-                " WerewolfFriend= " + WerewolfFriend+
+                " WerewolfFriend= " + werewolfFriend +
                 ", magicRating=" + magicRating + "}";
 
     }

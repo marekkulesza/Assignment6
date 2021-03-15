@@ -281,7 +281,8 @@ public class Inhabitant {
     /**
      * the attack method which is more like the defend method in the assignment
      * I changed this because it has very hard to look at when doing it in the
-     * world java. It's simpler to do inhabitant.attack(inhabitant2).
+     * world java. It's simpler to do inhabitant.attack(inhabitant2). Instead of
+     * inabitant.attack(inhabitant2.defend(inhabitant))
      *
      * @param inhabitant an inhabitant of the world you are looking to attack
      */

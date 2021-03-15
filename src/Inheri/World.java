@@ -13,9 +13,10 @@ package Inheri;
 
 public class World {
     public static void main(String[] args) {
+        RedMoon Edward2 = new RedMoon("Edward2");
         Healer Areith = new Healer("Areith");
         Human Hunter = new Hunter("Mama");
-        Healer BetterAreith = new Healer("Better Areith", 4, 4, 6, 7,4);
+        Healer BetterAreith = new Healer("Better Areith", 4, 4, 6, 7,4, Edward2 );
         Human BetterHunter = new Hunter("Better Mama", 4, 4, 6, 7);
 
         System.out.println(Areith);
